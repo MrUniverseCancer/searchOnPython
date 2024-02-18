@@ -29,9 +29,9 @@ if __name__ == '__main__':
         while j < y:
             if v1[i][j] != 0:
                 fact[i][j] = 1
-                print("Hihi")
             j += 1
         i += 1
+        j = 0
     
     Polar_r = head.np.sqrt((-center[0])**2 + (-center[1])**2)
     Polar_theta = head.np.arctan2(y - center[1], x - center[0])
